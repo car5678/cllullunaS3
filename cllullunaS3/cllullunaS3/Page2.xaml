@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cllullunaS3.Page2">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="24"/>
+                <Setter Property="TextColor" Value="Azure"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lbldato1" Text="page 2"   Style="{StaticResource labelStyle}" />
+            <Label x:Name="lbldato2" TextColor="Black" FontSize="18" />
+            <Entry x:Name="txtdato2" IsEnabled="true"/>
+            <Button x:Name="btnAbriV3" Text="abrir ventana 3" Clicked="btnAbriV3_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
