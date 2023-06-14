@@ -9,6 +9,9 @@ namespace cllullunaS3
         public App()
         {
             InitializeComponent();
+            //NAVEGACION
+            //TEST
+            //PRUEBA
 
             MainPage = new NavigationPage(new Page1());
         }
